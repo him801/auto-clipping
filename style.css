@@ -26,4 +26,7 @@ li { margin: 6px 0; }
 .steps li::marker { color: var(--accent); font-weight: 700; }
 section { border-top: 1px solid var(--line); }
 .back { margin: 0 0 16px; font-size: 14px; }
+.topnav { display: flex; justify-content: flex-end; gap: 18px; font-size: 14px; margin: -24px 0 24px; }
+.ytbadge { display: inline-block; margin-top: 18px; line-height: 0; }
+.ytbadge img { height: 50px; width: auto; }
 footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--mute); font-size: 14px; }
